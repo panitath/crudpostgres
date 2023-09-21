@@ -1,4 +1,4 @@
-import pymysql
+import psycopg2
 # สร้าง function เชื่อ
 
 
@@ -11,7 +11,7 @@ def connectdb():
     #     port=3306,
     #     cursorclass=pymysql.cursors.DictCursor
 
-    connection = pymysql.connect(
+    connection = psycopg2.connect(
         host='dpg-ck5snrr6fquc739cqou0-a',
         user='admin',
         password='u0r0E8RpBxTX9aWEcdcy3gvLDWwog3uQ',
