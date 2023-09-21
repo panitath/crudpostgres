@@ -16,7 +16,7 @@ def connectdb():
         user='admin',
         password='u0r0E8RpBxTX9aWEcdcy3gvLDWwog3uQ',
         database='sampledb_9jcz',
-        port=3306,
+        port=5432,
        
     )
     return connection
